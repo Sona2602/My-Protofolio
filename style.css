@@ -1,0 +1,55 @@
+body
+{ 
+margin:0;
+padding-top:800px;
+text-align: center;
+}
+.img{
+    width:175px;
+    margin-bottom:50px;
+    border-radius:50%;
+}
+#s1{
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    right: 0;
+    background: pink;
+    height: 100%;
+    width: 100%;
+    display: table;
+    z-index: 9;
+}
+#sp1{
+    font-family: fantasy;
+    font-size: 40px;
+    text-decoration-color: aquamarine;
+}
+.ul1{
+    list-style: none;
+    font-family: cursive;
+    position: absolute;
+    top:10px;
+    right: 30px;
+    z-index: 10;
+    cursor: pointer;
+}
+.li1{
+    float: left;
+    color: aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.li1:hover{
+    background-color: skyblue;
+}
+html{
+    scroll-behavior: smooth;
+}
